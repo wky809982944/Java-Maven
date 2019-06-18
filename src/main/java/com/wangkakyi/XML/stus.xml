@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<stus>
+    <stu>
+        <name>张三</name>
+        <age>18</age>
+    </stu>
+    <stu>
+        <name>李四</name>
+        <age>28</age>
+        <addre>北京</addre>
+    </stu>
+</stus>
