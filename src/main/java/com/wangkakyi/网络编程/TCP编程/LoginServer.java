@@ -1,8 +1,6 @@
 package com.wangkakyi.网络编程.TCP编程;
 
 import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -14,7 +12,7 @@ import java.net.Socket;
  * 3.操作 输入输出流操作
  * 4.释放资源
  */
-public class Server {
+public class LoginServer {
     public static void main(String args[]) throws Exception {
         System.out.println("-------Server------");
         //1.指定端口使用ServerSocket创建服务器
@@ -24,10 +22,19 @@ public class Server {
         System.out.println("一个客户端建立了链接");
         // 3.操作 输入输出流操作
         DataInputStream dis = new DataInputStream(client.getInputStream());
-        String data = dis.readUTF();
-        System.out.println(data);
-        //4.释放资源
-        dis.close();
+        String datas = dis.readUTF();
+        String[] dataArray = datas.split("&");
+        for (String info : dataArray) {
+            String[] userInfo = info.split("=");
+            if (userInfo[0].equals("uname")) {
+                System.out.println("你的用户名为："+userInfo[1]);
+            } else if (userInfo[0].equals("upwd")) {
+                System.out.println("你的密码为："+userInfo[1]);
+            }
+
+        }
+            //4.释放资源
+            dis.close();
         client.close();
         server.close();
     }

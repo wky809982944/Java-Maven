@@ -1,14 +1,10 @@
 package com.wangkakyi.Util;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import com.sun.org.apache.bcel.internal.generic.RETURN;
-import jdk.internal.org.objectweb.asm.Handle;
+
 import org.junit.Test;
 
-import javax.naming.Name;
-import java.security.PublicKey;
 import java.sql.*;
-import java.util.List;
+
 
 public class CommonCRUDUtil {
 

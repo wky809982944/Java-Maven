@@ -1,10 +1,7 @@
 package com.wangkakyi.GUI编程.实验十六.学生信息管理;
-import com.sun.org.apache.bcel.internal.generic.NEW;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionListener;
-import java.awt.event.FocusListener;
 
 class WinTable extends JFrame{
     private JFrame frame;

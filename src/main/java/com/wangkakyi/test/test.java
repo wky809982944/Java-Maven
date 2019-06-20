@@ -6,7 +6,6 @@ package com.wangkakyi.test;
 
 import java.awt.*;
 import javax.swing.*;
-import net.miginfocom.swing.*;
 
 /**
  * @author unknown
@@ -22,7 +21,7 @@ public class test extends JFrame {
 
         //======== this ========
         Container contentPane = getContentPane();
-        contentPane.setLayout(new MigLayout(
+       /* contentPane.setLayout(new MigLayout(
             "hidemode 3",
             // columns
             "[fill]" +
@@ -30,7 +29,7 @@ public class test extends JFrame {
             // rows
             "[]" +
             "[]" +
-            "[]"));
+            "[]"));*/
         pack();
         setLocationRelativeTo(getOwner());
         // JFormDesigner - End of component initialization  //GEN-END:initComponents
