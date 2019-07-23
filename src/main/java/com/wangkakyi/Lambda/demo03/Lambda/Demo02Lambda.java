@@ -1,4 +1,4 @@
-package Lambda.demo03.Lambda;
+package com.wangkakyi.Lambda.demo03.Lambda;
 
 /*
     Lambda表达式的标准格式：

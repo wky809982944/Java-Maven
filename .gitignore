@@ -8,5 +8,8 @@
 out
 gen
 .gitignore
-.idea/dataSources.local.xml
-.idea/workspace.xml
+将删除 "src/main/java/com/wangkakyi/IO\347\263\273\347\273\237/File\347\261\273/testDir/"
+将删除 "src/main/java/com/wangkakyi/IO\347\263\273\347\273\237/IO\346\246\202\345\277\265/"
+将删除 "src/main/java/com/wangkakyi/\347\254\246\345\217\267\351\233\206/"
+将删除 "src/main/java/com/wangkakyi/\347\275\221\347\273\234\347\274\226\347\250\213/\347\275\221\347\273\234\345\237\272\347\241\200\347\274\226\347\250\213/"
+将删除 target/

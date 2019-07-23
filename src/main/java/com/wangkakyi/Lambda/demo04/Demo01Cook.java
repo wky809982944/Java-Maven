@@ -1,4 +1,4 @@
-package Lambda.demo04;
+package com.wangkakyi.Lambda.demo04;
 
 public class Demo01Cook {
     public static void main(String[] args) {
