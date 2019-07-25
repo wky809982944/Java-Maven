@@ -1,4 +1,4 @@
-package com.wangkakyi.Lambda.函数式接口作为方法的参数案例;
+package com.wangkakyi.Lambda.函数式接口.函数式接口作为方法的参数案例;
 
 /**
  * @Author: 鸢一折折纸

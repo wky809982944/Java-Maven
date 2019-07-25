@@ -1,4 +1,4 @@
-package com.wangkakyi.Lambda.函数式接口的使用;
+package com.wangkakyi.Lambda.函数式接口.函数式接口的使用;
 
 /**
  * @Author: 鸢一折折纸
