@@ -1,7 +1,7 @@
 package com.wangkakyi.Lambda;
 
-import com.wangkakyi.Lambda.函数式接口.函数式接口的使用.MyFunctionalInterface;
-import com.wangkakyi.Lambda.函数式接口.函数式接口的使用.MyFunctionalInterfaceImpl;
+import com.wangkakyi.Lambda.函数式接口的使用.MyFunctionalInterface;
+import com.wangkakyi.Lambda.函数式接口的使用.MyFunctionalInterfaceImpl;
 import org.junit.Test;
 
 /**
